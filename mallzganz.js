@@ -455,7 +455,7 @@ break
 	
 	Note : Fitur Masih Dikit Karena Baru Jadi
 	Next Update Bakal Di Tambahin
-	Jangan Lupa Subscribe Zero YT7
+	Jangan Lupa Subscribe X-Z BOTZ
 `
 	but = [
 { buttonId: `${prefix}listdiamond`, buttonText: { displayText: 'LIST DIAMOND' }, type: 1 },
