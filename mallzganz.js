@@ -10,7 +10,7 @@
 //TIKTOK : @mallz4you
 //GITHUB : MallzGanz
 
-owner = '6285710351875'
+owner = '6281219852278'
 botname = 'X-Z BOTZ'
 zerokey = 'NYXNGONTOL'
 zerkey = 'ZeroYT7'
@@ -458,7 +458,7 @@ break
 	Jangan Lupa Subscribe X-Z BOTZ
 `
 	but = [
-{ buttonId: `${prefix}listdiamond`, buttonText: { displayText: 'LIST DIAMOND' }, type: 1 },
+{ buttonId: `${prefix}shop`, buttonText: { displayText: 'LIST DIAMOND' }, type: 1 },
 { buttonId: `${prefix}donasi`, buttonText: { displayText: 'DONASI' }, type: 1 }
 ]
 sendButton(from, menunya, faketeks, but, mek)
@@ -1733,13 +1733,13 @@ break
 
 //━━━━━━━━━━━━━━━[ AKHIR LIST DIAMOND ]━━━━━━━━━━━━━━━━━//
 
-case 'listdiamond':
+case 'shop':
 but = [
 { buttonId: `${prefix}dmml`, buttonText: { displayText: 'DM ML' }, type: 1 },
 { buttonId: `${prefix}dmff`, buttonText: { displayText: 'DM FF' }, type: 1 },
 { buttonId: `${prefix}ucpubg`, buttonText: { displayText: 'UC PUBG' }, type: 1 }
 ]
-sendButton(from, "Silahkan Pilih List Diamond Di Bawah Ini", faketeks, but, mek)
+sendButton(from, "MALLZ STORE SILAHKAN PILIH LIST DI BAWAH UNTUK MELIHAT HARGA", faketeks, but, mek)
 break
 case 'dmml':
 qris = fs.readFileSync('./mallzganz/ml.jpg')
