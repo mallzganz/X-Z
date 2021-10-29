@@ -1778,7 +1778,7 @@ sendButImage(from, list, trans, qris, but)
 break
 case 'dmff':
 qris = fs.readFileSync('./mallzganz/ff.jpg')
-trans = `©Created : Zero YT7`
+trans = `©Created MALLZ STORE`
 list = `✮Price List Diamond FF✮
 LIST HARGA FREE FIRE via ID
 
