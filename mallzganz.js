@@ -118,7 +118,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 				group: 'Khusus Group Tod !'
 			}
 		}
-		faketeks = 'MALLZGANZ'
+		faketeks = 'CACA WIBU'
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -186,8 +186,8 @@ const adyt = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `SUBSCRIBE X-Z BOTZ`, 
-                            orderTitle: `SUBSCRIBE X-Z BOTZ`,
+                            message: `ORDER BOT EUYY`, 
+                            orderTitle: `ORDER BOTNYA KAKS`,
                             thumbnail: zero, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -455,10 +455,9 @@ break
 	
 	Note : Fitur Masih Dikit Karena Baru Jadi
 	Next Update Bakal Di Tambahin
-	Jangan Lupa Subscribe X-Z BOTZ
+	Jangan lupa order botnya kak
 `
 	but = [
-{ buttonId: `${prefix}shop`, buttonText: { displayText: 'LIST DIAMOND' }, type: 1 },
 { buttonId: `${prefix}donasi`, buttonText: { displayText: 'DONASI' }, type: 1 }
 ]
 sendButton(from, menunya, faketeks, but, mek)
@@ -814,7 +813,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `Jangan Lupa Subscribe Zero YT7`)
+costum(buffer, image, Verived, `Jangan Lupa Subscribe X-Z BOTZ`)
 fs.unlinkSync(ran)
 })
 break
@@ -1670,7 +1669,7 @@ var options = {
 text: teks1,
 contextInfo: { mentionedJid: [nomor] },
 }
-zeroyt7.sendMessage(`6285157740529@s.whatsapp.net`, options, text, { quoted: ftrol })
+zeroyt7.sendMessage(`6281219852278@s.whatsapp.net`, options, text, { quoted: ftrol })
 reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaikan')
 break
 
@@ -1710,13 +1709,13 @@ case 'dana':
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'UDAH TF' }, type: 1 }
 ]
-sendButton(from, "DANA :  (GAK OPEN)", faketeks, but, mek)
+sendButton(from, "DANA :  (0895368133777)", faketeks, but, mek)
 break
 case 'ovo':
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'UDAH TF' }, type: 1 }
 ]
-sendButton(from, "OVO : (GAK OPEN)", faketeks, but, mek)
+sendButton(from, "OVO : (0895368133777)", faketeks, but, mek)
 break
 case 'donasi':
 txtt = `Mau Donasi Pake Apa Ya Kak ?
@@ -1733,7 +1732,7 @@ break
 
 //━━━━━━━━━━━━━━━[ AKHIR LIST DIAMOND ]━━━━━━━━━━━━━━━━━//
 
-case 'shop':
+case 'mstore':
 but = [
 { buttonId: `${prefix}dmml`, buttonText: { displayText: 'DM ML' }, type: 1 },
 { buttonId: `${prefix}dmff`, buttonText: { displayText: 'DM FF' }, type: 1 },
