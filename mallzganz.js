@@ -187,7 +187,7 @@ const adyt = {
                             status: 1,
                             surface : 1,
                             message: `ORDER BOT EUYY`, 
-                            orderTitle: `ORDER BOTNYA KAKS`,
+                            orderTitle: `CACA CANTIK`,
                             thumbnail: zero, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
