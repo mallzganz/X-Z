@@ -10,11 +10,11 @@
 //TIKTOK : @mallz4you
 //GITHUB : MallzGanz
 
-owner = '62838024981411'
-botname = 'CACA BOTZ'
+owner = '6283830217637'
+botname = 'Lynnele BOT'
 zerokey = 'NYXNGONTOL'
 zerkey = 'ZeroYT7'
-ownername = 'Hycacaciya'
+ownername = 'Ayllena'
 
 const { fetchJosn, fetchText } = require('./lib/fetcher')
 const { color, bgcolor } = require('./lib/color')
