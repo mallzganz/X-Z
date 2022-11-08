@@ -10,11 +10,11 @@
 //TIKTOK : @mallz4you
 //GITHUB : MallzGanz
 
-owner = '6283830217637'
-botname = 'Lynnele BOT'
+owner = '6285795133940'
+botname = 'X-Z BOT'
 zerokey = 'NYXNGONTOL'
 zerkey = 'ZeroYT7'
-ownername = 'Ayllena'
+ownername = 'MALL SKYZY STORE'
 
 const { fetchJosn, fetchText } = require('./lib/fetcher')
 const { color, bgcolor } = require('./lib/color')
@@ -81,7 +81,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 		const Verived = "0@s.whatsapp.net"
 		const txt = mek.message.conversation
 		const botNumber = zeroyt7.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `6285710351875@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `6285795133940@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		const totalchat = await zeroyt7.chats.all()
@@ -108,7 +108,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 
 		mess = {
 			wait: 'Sabar Lagi Proses Tod...!',
-			success: 'Done Jangan Lupa Subscribe MALLZGANZ',
+			success: 'Done Jangan Lupa Subscribe MALL SKYZY',
 			error: {
 				stick: 'Gagal Convert Gambar To Sticker...Coba Lagi !',
 				Iv: 'Linknya Error Tod !'
@@ -118,7 +118,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 				group: 'Khusus Group Tod !'
 			}
 		}
-		faketeks = 'CACA WIBU'
+		faketeks = 'X-Z BOT'
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -187,7 +187,7 @@ const adyt = {
                             status: 1,
                             surface : 1,
                             message: `ORDER BOT EUYY`, 
-                            orderTitle: `CACA CANTIK`,
+                            orderTitle: `MALL SKYZY`,
                             thumbnail: zero, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
